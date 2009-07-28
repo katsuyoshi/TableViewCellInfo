@@ -8,13 +8,11 @@
 
 @interface RootViewController : UITableViewController {
     UITableViewCellStyle style;
-    NSString *cellInformation;
     
     UITableViewCell *theCell;
     UITableViewCell *descriptionCell;
 }
 
-@property (retain) NSString *cellInformation;
 @property (retain) UITableViewCell *theCell;
 @property (retain) UITableViewCell *descriptionCell;
 

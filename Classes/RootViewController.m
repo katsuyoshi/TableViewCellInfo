@@ -11,7 +11,7 @@
 
 @implementation RootViewController
 
-@synthesize cellInformation, theCell, descriptionCell;
+@synthesize theCell, descriptionCell;
 
 
 /*
@@ -187,7 +187,6 @@
 - (void)dealloc {
     [descriptionCell release];
     [theCell release];
-    [cellInformation release];
     [super dealloc];
 }
 
